@@ -77,7 +77,7 @@ IF(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
 ENDIF()
 
 # include directories
-#INCLUDE_DIRECTORIES( ./main/include )
+INCLUDE_DIRECTORIES( ./main/include )
 INCLUDE_DIRECTORIES( ./extern/jsoncons-0.93/src )
 
 # additional packages to be searched for by cmake
